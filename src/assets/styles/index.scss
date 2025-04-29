@@ -1,0 +1,49 @@
+// IMPORTAR AS FUNÇÕES DO BOOTSTRAP
+@import '../../../node_modules/bootstrap/scss/functions';
+
+// DEFINIR SUAS VARIÁVEIS
+$navyBlue: #21384b;
+$tealBlue: #567C8D;
+$beige: #F5EFEB;
+$skyBlue: #C8D9E6;
+$backgroundWhite: #FEFFFE;
+
+// REDEFINIR O MAPA DE CORES DO BOOTSTRAP
+$theme-colors: (
+    "navyBlue": $navyBlue,
+    "tealBlue": $tealBlue,
+    "beige": $beige,
+    "skyBlue": $skyBlue,
+    "backgroundWhite": $backgroundWhite
+);
+
+// IMPORTAR O BOOTSTRAP DEPOIS DAS VARIÁVEIS
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+// CUSTOMIZAÇÕES ADICIONAIS
+* {
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.main-content {
+    margin-left: 0;
+    margin-top: 60px;
+}
+
+@media (min-width: 1400px) {
+    .main-content {
+        margin-left: 20vw;
+        margin-top: 0;
+    }
+}

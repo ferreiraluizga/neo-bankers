@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+    img {
+        height: 100% !important;
+    }
+}
