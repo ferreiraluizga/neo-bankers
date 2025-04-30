@@ -1,5 +1,9 @@
-@media (min-width: 768px) {
-    img {
-        height: 100% !important;
-    }
+.bg-logo {
+    background-image: url('images/login.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }

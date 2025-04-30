@@ -9,6 +9,7 @@ import BankAccounts from './components/pages/bank_accounts';
 import ToDo from './components/pages/todo';
 import FinancialProfile from './components/pages/financial_profile';
 import Login from './components/pages/login';
+import SignUp from './components/pages/sign_up';
 
 function App() {
   return (

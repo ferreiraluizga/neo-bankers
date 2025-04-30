@@ -10,7 +10,7 @@ function Sidebar({ username, image_user }) {
                     style={{ width: "20vw", height: "100vh" }}
                 >
                     <a className="navbar-brand text-center" href="/" style={{ marginBottom: "1vw", marginTop: "1vw" }} >
-                        <img src="/images/logo.png" alt="Logo" height="150" className="d-inline-block align-text-top" />
+                        <img src="/images/logo.png" alt="Logo" width="240" className="d-inline-block align-text-top" />
                     </a>
 
                     <hr />
@@ -55,7 +55,7 @@ function Sidebar({ username, image_user }) {
                 <div class="container d-flex justify-content-center align-items-center">
                     <div class="col-4 text-start">
                         <a class="navbar-brand text-center" href="/">
-                            <img src="/images/logo.png" alt="Logo" height="70" />
+                            <img src="/images/logo.png" alt="Logo" width="100" />
                         </a>
                     </div>
                     <div class="col-4 d-flex justify-content-center">
