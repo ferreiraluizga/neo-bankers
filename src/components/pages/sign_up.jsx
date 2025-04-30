@@ -49,7 +49,7 @@ function SignUp() {
                             <TextField label="Confirme Sua Senha" type="passwrord" id="confirmarSenha" placeholder="" value="" />
                         </div>
                         <div className="col-12">
-                            <button className="btn btn-tealBlue rounded-pill mt-4 w-100">Entrar</button>
+                            <button className="btn btn-tealBlue rounded-pill mt-4 w-100">Cadastrar</button>
                         </div>
                         <p className="mt-3 text-center">
                             Já possui uma conta? <a href="/" className="link-light">Entre</a>
